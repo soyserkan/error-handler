@@ -8,7 +8,7 @@
     "dist/**/*"
   ],
   "scripts": {
-    "pub": "git add . && git commit -m \"updates\" && npm version patch && tsc && npm publish"
+    "pub": "git add . && git commit -m \"updates\" && git push -u origin master && npm version patch && tsc && npm publish"
   },
   "keywords": [],
   "author": "Serkan Soy",
