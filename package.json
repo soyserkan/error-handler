@@ -1,0 +1,16 @@
+{
+  "name": "@serkans/error-handler",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "pub": "git add . && git commit -m \"updates\" && npm version patch && tsc && npm publish"
+  },
+  "keywords": [],
+  "author": "Serkan Soy",
+  "license": "ISC"
+}
