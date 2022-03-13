@@ -12,5 +12,11 @@
   },
   "keywords": [],
   "author": "Serkan Soy",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
 }
