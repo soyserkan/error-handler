@@ -1,7 +1,6 @@
 import { CustomError } from "./custom-error"
-import { NextFunction, Response, Request } from "express";
 
-export function errorHandler(err: Error, req: Request, res: Response, next: NextFunction) {
+export function errorHandler(err: any, req: any, res: any, next: any) {
     if (err instanceof CustomError) {
         return res.status(err.statusCode).send({ errors: err.serializeErrors() });
     }
