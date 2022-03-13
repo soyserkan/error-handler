@@ -1,6 +1,6 @@
 import { CustomError } from "./custom-error"
 
-export function errorHandler(err: any, req: any, res: any, next: any) {
+export function ErrorHandlerMiddleware(err: any, req: any, res: any, next: any) {
     if (err instanceof CustomError) {
         return res.status(err.statusCode).send({ errors: err.serializeErrors() });
     }
