@@ -10,7 +10,15 @@
   "scripts": {
     "pub": "git add . && git commit -m \"updates\" && git push -u origin master && npm version patch && tsc && npm publish"
   },
-  "keywords": [],
+  "keywords": [
+		"error",
+		"handler",
+		"middleware"
+	],
+  "repository": {
+		"type": "git",
+		"url": "git://github.com/soyserkan/error-handler.git"
+	},
   "author": "Serkan Soy",
   "license": "ISC"
 }
